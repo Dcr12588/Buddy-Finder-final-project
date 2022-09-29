@@ -136,10 +136,118 @@ h3{
 }
 
 .text {
-    line-height: 3em;
+    line-height: 1em;
     position: absolute;
     top: 30%;
-    left: 8%;
+    left: 5%;
     
+}
+
+.text1 {
+    line-height: 1em;
+    position: absolute;
+    top: 38%;
+    left: 5%;
+    
+}
+
+.text2 {
+    line-height: 1em;
+    position: absolute;
+    top: 46%;
+    left: 5%;
+    
+}
+
+.text3 {
+    line-height: 1em;
+    position: absolute;
+    top: 54%;
+    left: 5%;
+    
+}
+
+.text4 {
+    line-height: 1em;
+    position: absolute;
+    top: 62%;
+    left: 5%;
+    
+}
+
+.submitButton {
+    position: absolute; 
+    top: 70%;
+    left: 5%;
+}
+
+.line {
+    border-left: 8px;
+    height: 650px;
+    width: 2px;
+    background-color: rgb(152, 114, 207);
+    position: absolute;
+    top: 180px;
+    left: 30%;
+}
+
+.line2 {
+    border-left: 8px;
+    height: 680px;
+    width: 2px;
+    background-color: rgb(152, 114, 207);
+    position: absolute;
+    top: 180px;
+    left: 30%;
+}
+
+.line3 {
+    border-left: 8px;
+    height: 480px;
+    width: 2px;
+    background-color: rgb(152, 114, 207);
+    position: absolute;
+    top: 200px;
+    left: 20%;
+}
+
+.line4 {
+    border-left: 8px;
+    height: 480px;
+    width: 2px;
+    background-color: rgb(152, 114, 207);
+    position: absolute;
+    top: 200px;
+    right: 20%;
+}
+
+.line5 {
+    border-left: 8px;
+    height: 2px;
+    width: 1080px;
+    background-color: rgb(152, 114, 207);
+    position: absolute;
+    top: 200px;
+    left: 20%;
+}
+
+.line6 {
+    border-left: 8px;
+    height: 2px;
+    width: 1080px;
+    background-color: rgb(152, 114, 207);
+    position: absolute;
+    top: 680px;
+    left: 20%;
+}
+
+.line7 {
+    border-left: 8px;
+    height: 680px;
+    width: 2px;
+    background-color: rgb(152, 114, 207);
+    position: absolute;
+    top: 180px;
+    left: 30%;
 }
 
