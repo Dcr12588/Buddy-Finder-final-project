@@ -17,7 +17,7 @@ ul li {
 }
 
 .menu-bar{
-    background: rgb(152, 114, 207);
+    background: rgb(184, 92, 223);
     text-align: center;
     font-family: "Ledger";
 }
@@ -88,7 +88,7 @@ h3{
 .logo {
     position: absolute;
     top: 40px;
-    left: 7%;
+    left: 40%;
 }
 
 .dog1 {
@@ -140,7 +140,6 @@ h3{
     position: absolute;
     top: 30%;
     left: 5%;
-    
 }
 
 .text1 {
@@ -185,7 +184,7 @@ h3{
     border-left: 8px;
     height: 650px;
     width: 2px;
-    background-color: rgb(152, 114, 207);
+    background-color:  rgb(184, 92, 223);
     position: absolute;
     top: 180px;
     left: 30%;
@@ -195,7 +194,7 @@ h3{
     border-left: 8px;
     height: 680px;
     width: 2px;
-    background-color: rgb(152, 114, 207);
+    background-color:  rgb(184, 92, 223);
     position: absolute;
     top: 180px;
     left: 30%;
@@ -205,7 +204,7 @@ h3{
     border-left: 8px;
     height: 480px;
     width: 2px;
-    background-color: rgb(152, 114, 207);
+    background-color:  rgb(184, 92, 223);
     position: absolute;
     top: 200px;
     left: 20%;
@@ -215,7 +214,7 @@ h3{
     border-left: 8px;
     height: 480px;
     width: 2px;
-    background-color: rgb(152, 114, 207);
+    background-color:  rgb(184, 92, 223);
     position: absolute;
     top: 200px;
     right: 20%;
@@ -225,7 +224,7 @@ h3{
     border-left: 8px;
     height: 2px;
     width: 1080px;
-    background-color: rgb(152, 114, 207);
+    background-color: rgb(184, 92, 223);
     position: absolute;
     top: 200px;
     left: 20%;
@@ -235,7 +234,7 @@ h3{
     border-left: 8px;
     height: 2px;
     width: 1080px;
-    background-color: rgb(152, 114, 207);
+    background-color: rgb(184, 92, 223);
     position: absolute;
     top: 680px;
     left: 20%;
@@ -245,9 +244,17 @@ h3{
     border-left: 8px;
     height: 680px;
     width: 2px;
-    background-color: rgb(152, 114, 207);
+    background-color:  rgb(184, 92, 223);
     position: absolute;
     top: 180px;
     left: 30%;
 }
 
+._logo {
+     width: 10%;
+     height: 20%;
+     object-fit: cover;
+     position: relative;
+     right: 1050px;
+     bottom: 38px;
+}
