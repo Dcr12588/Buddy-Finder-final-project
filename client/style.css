@@ -17,7 +17,7 @@ ul li {
 }
 
 .menu-bar{
-    background: rgb(184, 92, 223);
+    background: rgb(196, 126, 225);
     text-align: center;
     font-family: "Ledger";
 }
@@ -93,26 +93,11 @@ h3{
 
 .dog1 {
     position: absolute;
-    top: 300px;
-    left: 59%;
-}
-
-.dog2 {
-    position: absolute;
-    top: 500px;
-    left: 39%;
-}
-
-.dog3 {
-    position: absolute;
-    top: 500px;
-    right: 15%;
-}
-
-.dog4 {
-    position: absolute;
-    top: 85%;
-    left: 59%;
+    top: 268px;
+    left: 34.5%;
+    border-radius: 10px;
+    width:1100px;
+    height:590;
 }
 
 .aboutUs {
@@ -258,3 +243,34 @@ left: 5%;
      right: 1050px;
      bottom: 38px;
 }
+
+#displayAYB {
+    position: absolute;
+    top: 260px;
+    left: 37%;
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(196, 126, 225);
+    border-radius: 10px;
+}
+
+#displayFYB {
+    position: absolute;
+    top: 260px;
+    left: 37%;
+    width: 1000px;
+    height: 600px;
+    background-color: rgb(196, 126, 225);
+    border-radius: 10px;
+}
+
+/* #displayCollage {
+    position: absolute;
+    top: 260px;
+    left: 34%;
+    width: 1100px;
+    height: 590px;
+    background-color: rgb(196, 126, 225);
+    border-radius: 10px;
+} */
+
