@@ -80,8 +80,8 @@ h3{
     font-weight: bold;
     font-size: 20px;
     position: absolute;
-    top: 200px;
-    left: 60%;
+    top: 180px;
+    left: 45%;
     text-decoration: underline;
 }
 
@@ -167,22 +167,22 @@ left: 5%;
 
 .line {
     border-left: 8px;
-    height: 650px;
+    height: 595px;
     width: 2px;
     background-color:  rgb(184, 92, 223);
     position: absolute;
-    top: 180px;
-    left: 30%;
+    top: 260px;
+    left: 50%;
 }
 
 .line2 {
     border-left: 8px;
-    height: 680px;
+    height: 595px;
     width: 2px;
     background-color:  rgb(184, 92, 223);
     position: absolute;
-    top: 180px;
-    left: 30%;
+    top: 260px;
+    left: 28%;
 }
 
 .line3 {
@@ -227,12 +227,12 @@ left: 5%;
 
 .line7 {
     border-left: 8px;
-    height: 680px;
+    height: 595px;
     width: 2px;
     background-color:  rgb(184, 92, 223);
     position: absolute;
-    top: 180px;
-    left: 30%;
+    top: 260px;
+    left: 72%;
 }
 
 ._logo {
@@ -247,8 +247,8 @@ left: 5%;
 #displayAYB {
     position: absolute;
     top: 260px;
-    left: 37%;
-    width: 1000px;
+    left: 6%;
+    width: 1600px;
     height: 600px;
     background-color: rgb(196, 126, 225);
     border-radius: 10px;
@@ -257,20 +257,98 @@ left: 5%;
 #displayFYB {
     position: absolute;
     top: 260px;
-    left: 37%;
-    width: 1000px;
+    left: 6%;
+    width: 1600px;
     height: 600px;
     background-color: rgb(196, 126, 225);
     border-radius: 10px;
 }
 
-/* #displayCollage {
+#displayCard1 {
     position: absolute;
-    top: 260px;
-    left: 34%;
-    width: 1100px;
-    height: 590px;
-    background-color: rgb(196, 126, 225);
+    top: 280px;
+    left: 8.5%;
+    background-color: white;
+    width:300px;
+    height: 555px;
     border-radius: 10px;
-} */
+}
 
+#displayCard2 {
+    position: absolute;
+    top: 280px;
+    left: 30.5%;
+    background-color: white;
+    width:300px;
+    height: 555px;
+    border-radius: 10px;
+}
+
+#displayCard3 {
+    position: absolute;
+    top: 280px;
+    left: 52.5%;
+    background-color: white;
+    width:300px;
+    height: 555px;
+    border-radius: 10px;
+}
+
+#displayCard4 {
+    position: absolute;
+    top: 280px;
+    left: 75%;
+    background-color: white;
+    width:300px;
+    height: 555px;
+    border-radius: 10px;
+}
+
+h4{
+    font-weight: bold;
+    font-size: 20px;
+    position: absolute;
+    top: 180px;
+    left: 60%;
+    text-decoration: underline;
+}
+
+#displayCard1-border {
+    position: absolute;
+    top: 290px;
+    left: 9%;
+    background-color: rgb(196, 126, 225);
+    width: 280px;
+    height: 535px;
+    border-radius: 10px;
+}
+
+#displayCard2-border {
+    position: absolute;
+    top: 290px;
+    left: 31%;
+    background-color: rgb(196, 126, 225);
+    width:280px;
+    height: 535px;
+    border-radius: 10px;
+}
+
+#displayCard3-border {
+    position: absolute;
+    top: 290px;
+    left: 53%;
+    background-color: rgb(196, 126, 225);
+    width:280px;
+    height: 535px;
+    border-radius: 10px;
+}
+
+#displayCard4-border {
+    position: absolute;
+    top: 290px;
+    left: 75.6%;
+    background-color: rgb(196, 126, 225);
+    width:280px;
+    height: 535px;
+    border-radius: 10px;
+}

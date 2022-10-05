@@ -1,0 +1,53 @@
+[
+    {
+
+        "id": 1,
+        "name": "Bonnie-Female",
+        "age":"3 years old",
+        "picture": "BonnieSmall.jpeg",
+        "breed": "Alaskan Malamute cross",
+        "description": "Bonnie is a 3-year old Alaskan Malamute cross. This beautiful baby is a soft playful pet that loves to be with others. She greets others with love and her goofy personality and is a joy to be around!",
+        "shelter Location": "Inland Valley Humane Society",
+        "Adoption Probablitiy":0
+
+    },
+
+    {
+
+        "id": 2,
+        "name": "Chapo-Male",
+        "age":"1.5 years old",
+        "picture": "ChapoSmall.jpeg",
+        "breed": "American Pit-Bull",
+        "description": "Chapo is a 1-year-old, American Pit Bull. This handsome gentleman has been at the shelter since August. Just like many of the pets in our care, he came in as a stray and is in desperate need of a home. Our behavior staff describe him as goofy and well behaved. He also does well on a leash and gets along with other dogs.",
+        "shelter Location": "Inland Valley Humane Society",
+        "Adoption Probablitiy":0
+
+    },
+
+    {
+
+        "id": 3,
+        "name": "Goldie-Female",
+        "age":"7 years old",
+        "picture": "GoldieSmall.jpeg",
+        "breed": "Bull-Terrier mixed Pit-Bull",
+        "description": "Goldie is a 7-year old Bull_Terrier mixed Pit-Bull that can only be described as sweet and mellow. She is nervous around high energy dogs but loves to be around others that match her personality. She may be shy but loves her walks and is great on leash!",
+        "shelter Location": "Inland Valley Humane Society",
+        "Adoption Probablitiy":0
+
+    },
+
+    {
+
+        "id": 4,
+        "name": "Bernie-Male",
+        "age":"2 years old",
+        "picture": "BernieSmall.jpeg",
+        "breed": "Chiuahauha-cross",
+        "description": "Bernie is a 2-year old Chiuahauha-cross. He is very shy, timid, and scared but is very loving to those who treat him with gentle love. He also loves his treats!",
+        "shelter Location": "Inland Valley Humane Society",
+        "Adoption Probablitiy":0
+
+    }
+]
