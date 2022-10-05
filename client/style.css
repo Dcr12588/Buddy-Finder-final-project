@@ -264,6 +264,16 @@ left: 5%;
     border-radius: 10px;
 }
 
+#displayFYB2 {
+    position: absolute;
+    top: 1030px;
+    left: 40.5%;
+    width: 335px;
+    height: 580px;
+    background-color: rgb(196, 126, 225);
+    border-radius: 10px;
+}
+
 #displayCard1 {
     position: absolute;
     top: 280px;
@@ -304,12 +314,22 @@ left: 5%;
     border-radius: 10px;
 }
 
+#displayCard5 {
+    position: absolute;
+    top: 1040px;
+    left: 41.5%;
+    background-color: white;
+    width:300px;
+    height: 555px;
+    border-radius: 10px;
+}
+
 h4{
     font-weight: bold;
     font-size: 20px;
     position: absolute;
-    top: 180px;
-    left: 60%;
+    top:900px;
+    left: 40%;
     text-decoration: underline;
 }
 
@@ -351,4 +371,42 @@ h4{
     width:280px;
     height: 535px;
     border-radius: 10px;
+}
+
+#displayCard5-border {
+    position: absolute;
+    top: 1050px;
+    left: 42%;
+    background-color: rgb(196, 126, 225);
+    width:280px;
+    height: 535px;
+    border-radius: 10px;
+}
+
+#nameInput {
+    top:1050px;
+}
+
+#ageInput {
+    
+}
+
+#pictureInput {
+    
+}
+
+#breedInput {
+    
+}
+
+#descriptionInput {
+    
+}
+
+#shelterInput {
+    
+}
+
+#newBuddy {
+    
 }
