@@ -5,7 +5,7 @@ let buddyId = 5
 
 module.exports = {
     getBuddies: (req,res) => {
-        console.log('first4',buddyFinder.slice(0, 3))
+        console.log(buddyFinder.slice(0, 3))
         res.status(200).send(buddyFinder.slice(0, 4))
     },
 

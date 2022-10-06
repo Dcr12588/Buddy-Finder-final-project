@@ -1,4 +1,3 @@
-
 const baseURL = 'http://localhost:3000'
 
 // const showbuddyFinder = document.querySelector('#displayCard1-border')
