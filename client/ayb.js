@@ -11,15 +11,15 @@ const displayBuddies = (arr) => {
 
 const createBuddyCard = (buddy) => {
 
-    const displayCard = document.createElement('section')
+    const displayCardadded = document.createElement('section')
     const buddyCard = document.createElement('section')
 
-    displayCard.classList.add('displayCard')
+    displayCardadded.classList.add('displayCardadded')
     buddyCard.classList.add('buddy-card')
 
 
     buddyCard.innerHTML = `
-        <img src=${buddy.picture} alt='dog image'/>
+        <img src=${buddy.picture} alt='dog image' id="added-pic"/>
         <p>${buddy.name}</p>
         <p>${buddy.age}</p>
         <p>${buddy.breed}</p>
@@ -27,16 +27,16 @@ const createBuddyCard = (buddy) => {
         <p>${buddy.shelter}</p>
         <section>
             <button onclick="updateadoptionProbability(${buddy.id}, 'noadoptionProbability')">-</button>
-            Adoption: ${buddy.adoptionProbability}
+            Adoption Match: ${buddy.adoptionProbability}
             <button onclick="updateadoptionProbability(${buddy.id}, 'adoptionProbability')">+</button>
         </section>
-        <button onclick="deleteBuddy(${buddy.id})">delete</button>
+        <button id="adoptionMatchDelete" onclick="deleteBuddy(${buddy.id})">delete</button>
         <br><br/>
         <br><br/>
         `
-        displayCard.appendChild(buddyCard)
+        displayCardadded.appendChild(buddyCard)
 
-        showbuddyFinder.appendChild(displayCard)
+        showbuddyFinder.appendChild(displayCardadded)
 }
 
 const addBuddy = () => {

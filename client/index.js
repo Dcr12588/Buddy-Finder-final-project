@@ -11,13 +11,13 @@ const displayBuddies = (arr) => {
 
 const createBuddyCard = (buddy) => {
     const buddyCard = document.createElement('section')
-    buddyCard.classList.add('buddy-card')
+    buddyCard.classList.add('buddyCard')
 
     const showbuddyFinder = document.querySelector(`#displayCard${buddy.id}-border`)
     showbuddyFinder.innerHTML = ''
 
     buddyCard.innerHTML = `
-        <img src=${buddy.picture} alt='dog image'/>
+        <img src=${buddy.picture} alt='dog image' id="dog-pic"/>
         <p>${buddy.name}</p>
         <p>${buddy.age}</p>
         <p>${buddy.breed}</p>
