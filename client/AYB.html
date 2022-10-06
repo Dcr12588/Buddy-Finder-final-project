@@ -16,10 +16,10 @@
         </div>
         <h1 class="Title">Buddy Finder</h1>
         <ul>
-            <li class="active"><a href="../client/home.html">Home</a></li>
-            <li><a href="../client/FYB.hmtl">Find Your Buddy!</a></li>
-            <li><a href="../client/AYB.html">Add your Buddy!</a></li>
-            <li><a href="../client/aboutUs.html">About Us</a></li>
+            <li class="active"><a href="/client/home.html">Home</a></li>
+            <li><a href="/client/FYB.html">Find Your Buddy!</a></li>
+            <li><a href="/client/AYB.html">Add your Buddy!</a></li>
+            <li><a href="/client/aboutUs.html">About Us</a></li>
         </ul>
     </div>
     <div>
@@ -33,8 +33,18 @@
      
     </div>
 
+    <section id="suggestions">
+        <input id= "nameInput" placeholder="Name"/>
+        <input id= "ageInput" placeholder="Age"/>
+        <input id= "pictureInput" placeholder="Picture URL"/>
+        <input id= "breedInput" placeholder="Breed"/>
+        <input id= "descriptionInput" placeholder="Description"/>
+        <input id= "shelterInput" placeholder="Shelter Location"/>
+        <button id="newBuddy"> Post Buddy </button>
+    </section>
     
-
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./ayb.js"></script>
 </body>
 
 </html>

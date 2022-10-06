@@ -5,14 +5,22 @@ let buddyId = 5
 
 module.exports = {
     getBuddies: (req,res) => {
-        res.status(200).send(buddyFinder)
+        console.log('first4',buddyFinder.slice(0, 3))
+        res.status(200).send(buddyFinder.slice(0, 4))
     },
+
+    getaddedBuddies: (req,res) => {
+        console.log(buddyFinder.slice(4))
+        res.status(200).send(buddyFinder.slice(4))
+    },
+
 
     addBuddy: (req, res) => {
 
         const {name, age, picture, breed, description, shelter} = req.body
 
         let newBuddyObject = {
+            id: buddyId,
             name: name,
             age: age,
             picture: picture,
@@ -26,7 +34,7 @@ module.exports = {
 
         buddyId++
 
-        res.status(200).send(buddyFinder)
+        res.status(200).send('Buddy added!')
     
     },
 
